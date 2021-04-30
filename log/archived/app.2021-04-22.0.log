@@ -1,0 +1,304 @@
+2021-04-22 12:02:53,781 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 12:02:53,816 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 12:02:53,818 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 12:02:54,018 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-22 12:02:54,019 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-22 12:02:57,091 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 12:02:57,315 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 196 ms. Found 3 JPA repository interfaces.
+2021-04-22 12:03:00,326 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 12:03:00,369 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 12:03:00,371 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 12:03:00,371 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 12:03:00,682 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 12:03:00,682 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6661 ms
+2021-04-22 12:03:01,253 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 12:03:01,436 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-22 12:03:01,945 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-22 12:03:02,329 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-22 12:03:02,981 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-22 12:03:03,073 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 12:03:05,519 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 12:03:05,556 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 12:03:05,623 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 12:03:07,285 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 12:03:07,984 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 12:03:08,452 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-04-22 12:03:08,528 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2021-04-22 12:03:08,807 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 12:03:08,808 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-22 12:03:08,811 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2021-04-22 12:03:09,666 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Started CoursesApplication in 17.394 seconds (JVM running for 20.307)
+2021-04-22 12:04:43,154 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-6] Returning all courses details
+2021-04-22 12:16:51,469 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-4] Returning all courses details
+2021-04-22 12:21:32,299 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-6] Returning all courses details
+2021-04-22 12:21:36,282 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-7] Returning all courses details
+2021-04-22 12:21:40,306 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-9] Returning all courses details
+2021-04-22 12:21:47,335 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-1] Returning all courses details
+2021-04-22 12:21:51,685 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-2] Course: 9 deleted from database
+2021-04-22 12:22:02,777 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-5] Returning all courses details
+2021-04-22 12:22:09,865 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-6] Returning all courses details
+2021-04-22 12:37:12,894 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-8] Returning all courses details
+2021-04-22 12:37:33,964 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-10] Returning all courses details
+2021-04-22 12:40:08,195 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-3] Returning all courses details
+2021-04-22 12:43:50,512 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-4] Returning all courses details
+2021-04-22 12:44:41,038 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-3] Returning all courses details
+2021-04-22 12:45:41,876 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-4] Course addedCourses(id=3, courseName=core java, startDate=2021-04-08, endDate=2021-04-08)
+2021-04-22 12:49:51,742 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-6] Returning all courses details
+2021-04-22 12:49:55,827 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-8] Returning all courses details
+2021-04-22 12:49:59,838 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-9] Returning all courses details
+2021-04-22 14:06:39,395 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-3] Course: 10 deleted from database
+2021-04-22 14:07:02,062 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-5] Course:12 added to database
+2021-04-22 14:07:02,118 INFO com.cg.practice.courses.courses.controller.CoursesController [http-nio-8081-exec-6] Returning all courses details
+2021-04-22 16:06:49,806 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:06:49,837 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:06:49,918 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-04-22 16:06:50,007 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-04-22 16:06:50,518 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:06:50,519 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:06:50,520 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:06:51,904 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:06:51,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2021-04-22 16:06:52,513 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:06:52,515 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:06:52,516 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:06:52,517 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:06:52,623 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:06:52,624 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2092 ms
+2021-04-22 16:06:52,726 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:06:52,750 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-22 16:06:53,175 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-22 16:06:53,177 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 16:06:53,790 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 16:06:53,792 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:06:53,812 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 16:06:54,335 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 16:06:54,592 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:06:54,786 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:06:54,808 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2021-04-22 16:06:55,260 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Started CoursesApplication in 4.865 seconds (JVM running for 14645.993)
+2021-04-22 16:06:55,266 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-22 16:09:16,091 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-11] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:09:16,096 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:09:16,099 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-2 - Shutdown initiated...
+2021-04-22 16:09:16,113 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-2 - Shutdown completed.
+2021-04-22 16:09:16,393 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:09:16,394 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:09:16,395 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:09:17,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:09:17,713 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-04-22 16:09:18,133 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:09:18,135 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:09:18,137 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:09:18,138 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:09:18,233 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:09:18,234 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1830 ms
+2021-04-22 16:09:18,316 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:09:18,328 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-22 16:09:18,682 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-22 16:09:18,682 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 16:09:19,217 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 16:09:19,218 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:09:19,235 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 16:09:19,647 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 16:09:19,884 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:09:20,073 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:09:20,092 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2021-04-22 16:09:20,508 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Started CoursesApplication in 4.223 seconds (JVM running for 14791.242)
+2021-04-22 16:09:20,512 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-22 16:11:40,205 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-17] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:11:40,214 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-17] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:11:40,215 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-3 - Shutdown initiated...
+2021-04-22 16:11:40,235 INFO com.zaxxer.hikari.HikariDataSource [Thread-17] HikariPool-3 - Shutdown completed.
+2021-04-22 16:11:40,452 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:11:40,453 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:11:40,454 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:11:41,765 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:11:41,810 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-04-22 16:11:42,240 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:11:42,241 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:11:42,243 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:11:42,244 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:11:42,343 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:11:42,344 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1882 ms
+2021-04-22 16:11:42,456 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:11:42,485 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-04-22 16:11:42,906 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-04-22 16:11:42,907 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 16:11:43,436 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 16:11:43,437 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:11:43,452 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 16:11:43,946 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 16:11:44,179 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:11:44,318 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:11:44,341 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2021-04-22 16:11:44,749 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Started CoursesApplication in 4.398 seconds (JVM running for 14935.484)
+2021-04-22 16:11:44,752 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-22 16:13:21,353 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-23] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:13:21,358 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:13:21,360 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-4 - Shutdown initiated...
+2021-04-22 16:13:21,379 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-4 - Shutdown completed.
+2021-04-22 16:13:21,569 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:13:21,569 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:13:21,570 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:13:22,653 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:13:22,690 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+2021-04-22 16:13:23,048 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:13:23,049 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:13:23,050 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:13:23,051 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:13:23,132 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:13:23,133 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1558 ms
+2021-04-22 16:13:23,222 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:13:23,233 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-04-22 16:13:23,585 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-04-22 16:13:23,586 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 16:13:24,049 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 16:13:24,050 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:13:24,062 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 16:13:24,421 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 16:13:24,590 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:13:24,746 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:13:24,777 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2021-04-22 16:13:25,149 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Started CoursesApplication in 3.655 seconds (JVM running for 15035.883)
+2021-04-22 16:13:25,155 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-22 16:25:10,008 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-29] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 16:25:10,013 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-29] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:25:10,015 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-5 - Shutdown initiated...
+2021-04-22 16:25:10,030 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-5 - Shutdown completed.
+2021-04-22 16:25:10,262 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:25:10,263 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:25:10,264 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:25:11,201 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:25:11,241 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2021-04-22 16:25:11,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:25:11,561 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:25:11,562 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:25:11,563 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:25:11,674 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:25:11,675 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1405 ms
+2021-04-22 16:25:11,731 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:25:11,743 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2021-04-22 16:25:12,038 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2021-04-22 16:25:12,039 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-22 16:25:12,566 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-22 16:25:12,567 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:25:12,581 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-22 16:25:12,808 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl' defined in file [C:\Users\ASMANE\Downloads\courses\target\classes\com\cg\practice\courses\courses\service\LoginServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cg.practice.courses.courses.service.LoginServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type Optional<Student>
+	The method getPassword() is undefined for the type Optional<Student>
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	CustomerMaster cannot be resolved to a type
+	The method findByEmailId(String) is undefined for the type LoginRepository
+	ResourceNotFound cannot be resolved to a type
+	USER_NOT_FOUND cannot be resolved to a variable
+	ResourceNotFound cannot be resolved to a type
+	WRONG_PASSWORD cannot be resolved to a variable
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	Syntax error, insert "}" to complete ClassBody
+
+2021-04-22 16:25:12,810 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 16:25:12,812 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Shutdown initiated...
+2021-04-22 16:25:12,957 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Shutdown completed.
+2021-04-22 16:25:12,958 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2021-04-22 16:25:12,973 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-22 16:25:13,037 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginServiceImpl' defined in file [C:\Users\ASMANE\Downloads\courses\target\classes\com\cg\practice\courses\courses\service\LoginServiceImpl.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cg.practice.courses.courses.service.LoginServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type Optional<Student>
+	The method getPassword() is undefined for the type Optional<Student>
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	CustomerMaster cannot be resolved to a type
+	The method findByEmailId(String) is undefined for the type LoginRepository
+	ResourceNotFound cannot be resolved to a type
+	USER_NOT_FOUND cannot be resolved to a variable
+	ResourceNotFound cannot be resolved to a type
+	WRONG_PASSWORD cannot be resolved to a variable
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	Syntax error, insert "}" to complete ClassBody
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.cg.practice.courses.courses.CoursesApplication.main(CoursesApplication.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cg.practice.courses.courses.service.LoginServiceImpl]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type Optional<Student>
+	The method getPassword() is undefined for the type Optional<Student>
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	CustomerMaster cannot be resolved to a type
+	The method findByEmailId(String) is undefined for the type LoginRepository
+	ResourceNotFound cannot be resolved to a type
+	USER_NOT_FOUND cannot be resolved to a variable
+	ResourceNotFound cannot be resolved to a type
+	WRONG_PASSWORD cannot be resolved to a variable
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	Syntax error, insert "}" to complete ClassBody
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1310)
+	... 23 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type Optional<Student>
+	The method getPassword() is undefined for the type Optional<Student>
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	CustomerMaster cannot be resolved to a type
+	The method findByEmailId(String) is undefined for the type LoginRepository
+	ResourceNotFound cannot be resolved to a type
+	USER_NOT_FOUND cannot be resolved to a variable
+	ResourceNotFound cannot be resolved to a type
+	WRONG_PASSWORD cannot be resolved to a variable
+	OperationFailedException cannot be resolved to a type
+	OPERATION_FAILED cannot be resolved to a variable
+	Syntax error, insert "}" to complete ClassBody
+
+	at com.cg.practice.courses.courses.service.LoginServiceImpl.<init>(LoginServiceImpl.java:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 25 common frames omitted
+2021-04-22 16:42:56,695 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] Starting CoursesApplication using Java 15.0.1 on LIN51010587 with PID 17468 (C:\Users\ASMANE\Downloads\courses\target\classes started by asmane in C:\Users\ASMANE\Downloads\courses)
+2021-04-22 16:42:56,698 DEBUG com.cg.practice.courses.courses.CoursesApplication [restartedMain] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-22 16:42:56,699 INFO com.cg.practice.courses.courses.CoursesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-22 16:42:58,491 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 16:42:58,556 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2021-04-22 16:42:58,944 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-04-22 16:42:58,946 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-22 16:42:58,947 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-22 16:42:58,948 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-22 16:42:59,033 INFO org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-22 16:42:59,034 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2315 ms
+2021-04-22 16:42:59,086 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-22 16:42:59,097 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2021-04-22 16:42:59,479 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2021-04-22 16:42:59,480 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
